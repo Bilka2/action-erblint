@@ -36,7 +36,7 @@ else
 fi
 
 echo '::group:: Running erb_lint with reviewdog 🐶 ...'
-"${BUNDLE_EXEC[@]}" erb_lint \
+"${BUNDLE_EXEC[@]}" erblint \
   --lint-all \
   --format compact \
   --fail-level F \
